@@ -41,6 +41,7 @@ int main(void)
 	//初始化栈
 	s.top = 0;
 
+	//初始化记录桌子上牌的数组
 	for (i = 0; i < 10; i++)
 	{
 		book[i] = 0;
@@ -69,15 +70,15 @@ int main(void)
 		//判断小哼打出的牌是否能赢
 		if (book[t] == 0)//表明桌上没有牌面为t 的牌
 		{
-			q1.head++;
+			q1.head++;//出队
 			s.top++;
-			s.data[s.top] = t;
-			book[t] = 1;
+			s.data[s.top] = t;//将打出的牌入栈
+			book[t] = 1;// 对打出的牌进行记录
 		}
 		else
 		{
-			q1.head++;
-			q1.data[q1.tail] = t;
+			q1.head++;//出队
+			q1.data[q1.tail] = t;//因为桌子上有这张牌，所以直接将它放到队的最后面
 			q1.tail++;
 			while (s.data[s.top] != t)
 			{

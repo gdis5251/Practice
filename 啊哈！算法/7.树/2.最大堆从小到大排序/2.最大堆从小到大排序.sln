@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.最大堆从小到大排序", "2.最大堆从小到大排序\2.最大堆从小到大排序.vcxproj", "{37808C9F-701F-411C-922D-7D430CB70346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37808C9F-701F-411C-922D-7D430CB70346}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37808C9F-701F-411C-922D-7D430CB70346}.Debug|Win32.Build.0 = Debug|Win32
+		{37808C9F-701F-411C-922D-7D430CB70346}.Release|Win32.ActiveCfg = Release|Win32
+		{37808C9F-701F-411C-922D-7D430CB70346}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

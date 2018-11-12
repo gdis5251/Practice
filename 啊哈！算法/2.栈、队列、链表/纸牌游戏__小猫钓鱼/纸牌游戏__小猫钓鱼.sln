@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "纸牌游戏__小猫钓鱼", "纸牌游戏__小猫钓鱼\纸牌游戏__小猫钓鱼.vcxproj", "{5BDDC5E6-09E3-4B28-B258-610A54C0D48F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BDDC5E6-09E3-4B28-B258-610A54C0D48F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5BDDC5E6-09E3-4B28-B258-610A54C0D48F}.Debug|Win32.Build.0 = Debug|Win32
+		{5BDDC5E6-09E3-4B28-B258-610A54C0D48F}.Release|Win32.ActiveCfg = Release|Win32
+		{5BDDC5E6-09E3-4B28-B258-610A54C0D48F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

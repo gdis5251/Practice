@@ -1,0 +1,13 @@
+﻿生成启动时间为 2018/10/10 14:59:40。
+     1>项目“F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\广度优先搜索_宝岛探险\广度优先搜索_宝岛探险.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "广度优先搜索_宝岛探险.c"
+         广度优先搜索_宝岛探险.c
+       Link:
+         F:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\Debug\广度优先搜索_宝岛探险.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\Debug\广度优先搜索_宝岛探险.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\Debug\广度优先搜索_宝岛探险.lib" /MACHINE:X86 "Debug\广度优先搜索_宝岛探险.obj"
+         广度优先搜索_宝岛探险.vcxproj -> F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\Debug\广度优先搜索_宝岛探险.exe
+     1>已完成生成项目“F:\C语言\源代码\练习\万能的搜索\广度优先搜索_宝岛探险\广度优先搜索_宝岛探险\广度优先搜索_宝岛探险.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82

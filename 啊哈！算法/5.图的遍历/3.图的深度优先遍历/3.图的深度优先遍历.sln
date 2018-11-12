@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.图的深度优先遍历", "3.图的深度优先遍历\3.图的深度优先遍历.vcxproj", "{287B48A0-2991-4D99-B710-E0B102B5970D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287B48A0-2991-4D99-B710-E0B102B5970D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{287B48A0-2991-4D99-B710-E0B102B5970D}.Debug|Win32.Build.0 = Debug|Win32
+		{287B48A0-2991-4D99-B710-E0B102B5970D}.Release|Win32.ActiveCfg = Release|Win32
+		{287B48A0-2991-4D99-B710-E0B102B5970D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

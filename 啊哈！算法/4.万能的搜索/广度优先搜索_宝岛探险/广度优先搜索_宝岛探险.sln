@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "广度优先搜索_宝岛探险", "广度优先搜索_宝岛探险\广度优先搜索_宝岛探险.vcxproj", "{0371136E-C0B6-44B3-BF7D-1A1B84F15CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0371136E-C0B6-44B3-BF7D-1A1B84F15CEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0371136E-C0B6-44B3-BF7D-1A1B84F15CEF}.Debug|Win32.Build.0 = Debug|Win32
+		{0371136E-C0B6-44B3-BF7D-1A1B84F15CEF}.Release|Win32.ActiveCfg = Release|Win32
+		{0371136E-C0B6-44B3-BF7D-1A1B84F15CEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

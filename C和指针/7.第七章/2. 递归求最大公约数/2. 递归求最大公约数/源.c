@@ -16,8 +16,9 @@ int gcd(int m, int n)
 {
 	if (m % n == 0) //如果能整数则直接返回除数
 		return n;
-	else if (m % n > 0)//如果不能整除但余数大于0，说明被除数小于除数，将两数交换
+	if (m % n > 0)//如果不能整除但余数大于0，说明被除数小于除数，将两数交换
 		return gcd(n, (m % n));
+	return n;
 }
 
 

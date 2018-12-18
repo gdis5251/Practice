@@ -143,24 +143,64 @@ int binToOct(char *bin, char *oct, int bl)
 	int i_ = 0;
 	int j_ = bl - 1;
 	int n_ = 0;
+	int count_ = 0;
 
 	if (0 == bl % 3)
 	{
 	
 		n_ = bl / 3;
-		for (i_ = 0; i_ < n_; i_++)
+		for (i_ = n_ - 1; i_ >= 0; i_--)
 		{
 			oct[i_] = bin[j_] - 48 + (bin[j_ - 1] - 48) * 2 + (bin[j_ - 2] - 48) * 4 + 48;
-		}
-	}
 
+			j_ -= 3;
+		}
+
+		return n_;
+	}
 	else
 	{
-		n_ = bl / 3 + 1;
+		count_ = bl % 3;
+		n_ = bl / 3;
 
-		for (i_ = 0; i_ < n_; i_++)
+		for (i_ = n_; i_ > 0; i_--)
 		{
+			oct[i_] = bin[j_] - 48 + (bin[j_ - 1] - 48) * 2 + (bin[j_ - 2] - 48) * 4 + 48;
 
+			j_ -= 3;
 		}
+
+		if (2 == count_)
+			oct[i_] = bin[j_] - 48 + (bin[j_ - 1] - 48) * 2 + 48;
+		else if (1 == count_)
+			oct[i_] = bin[j_];
+
+		return n_ + 1;
 	}
+
+
+}
+
+
+
+void printO(char *oct, int ol)
+{
+	int i_ = 0;
+
+	while (1)//省略掉前面的0
+	{
+		if ('0' == oct[i_])
+			i_++;
+		else
+			break;
+	}
+	
+	
+	for (; i_ < ol; i_++)
+	{
+		printf("%c", oct[i_]);
+	}
+	printf("\n");
+
+
 }

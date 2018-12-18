@@ -30,7 +30,7 @@
 	先将十六进制数转换成某进制数，再由某进制数转换成八进制。
 */
 
-#define MAXSIZE 6
+#define MAXSIZE 100000
 
 int main(void)
 {
@@ -46,7 +46,8 @@ int main(void)
 
 	for (i = 0; i < n; i++)
 	{
-		gets(hex);
+		scanf("%s", hex);
+
 		bl = hexToBin(hex, bin);
 		ol = binToOct(bin, oct, bl);
 

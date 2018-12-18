@@ -12,7 +12,7 @@
 
 int hexToBin(char *hex, char *bin);
 int binToOct(char *bin, char *oct, int bl);
-
+void printO(char *oct, int ol);
 
 
 

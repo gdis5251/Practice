@@ -16,7 +16,7 @@ typedef struct
 
 
 void initHT(huffmanTree HT, int n);
-//void createHT(huffmanTree HT, int n);
+void createHT(huffmanTree HT, int n);
 void printHT(huffmanTree HT, int n);
 
 

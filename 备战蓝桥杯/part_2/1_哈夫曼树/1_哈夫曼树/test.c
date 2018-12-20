@@ -24,7 +24,7 @@ int main(void)
 
 	initHT(HT, n);//初始化哈夫曼树
 
-	//createHT(HT, n);//生成哈夫曼树
+	createHT(HT, n);//生成哈夫曼树
 
 	printHT(HT, n);//打印哈夫曼树
 
